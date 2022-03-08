@@ -1,5 +1,5 @@
 body {
-  background: no-repeat center url(/images/background.jpg);
+  background-image: url(/images/background.jpg);
 }
 
 .container {
@@ -81,10 +81,16 @@ a:link, a:visited, a:active, a:hover {
 a:hover {
     color: gold;
   }
+  
+.barraNav ul {
+    text-align: center;
+    list-style: none;
+}
 
-.barraNav {
-  list-style: none;
-  font-size: 20px;
-  font-family: monospace;
-  text-align: center;
-  }
+.barraNav li {
+    display: inline;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    margin: auto;
+}
