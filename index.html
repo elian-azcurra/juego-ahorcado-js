@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="/styles/style.css">
+  </head>
+
+<body>
+
+  <div class="container">
+    <h1 class="titulo">JUEGO DEL AHORCADO</h1>
+    <nav>
+      <ul class="barraNav">
+        <li><a href="https://github.com/elian-azcurra" target="_blank">Mi GitHub</a>
+        </li>
+      </ul>
+    </nav>
+      <div class="principal">
+        <button class="btn" id="iniciar-juego">¡INICIAR JUEGO!</button>
+        <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
+        <button class="btn" id="nueva-palabra">¡AGREGAR PALABRA!</button>
+        <button class="invisible" id="reiniciar-juego">¡REINICIAR JUEGO!</button>
+    </div>
+
+    <div>
+      <canvas class="zona-ahorcado" id="ahorcado"></canvas>
+    </div>
+
+    <footer class="piso">
+    Hecho por: Elian Azcurra
+    </footer>
+  </div>
+
+</body>
+
+<script class="div" type="text/javascript" src="script/canvas.js"></script>
+<script type="text/javascript" src="script/ahorcado.js"></script>
+
+</html>
