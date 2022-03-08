@@ -1,0 +1,90 @@
+body {
+  background: no-repeat center url(/images/background.jpg);
+}
+
+.container {
+    display: block;
+    position: static;
+  }
+
+.titulo {
+    text-align: center;
+    position: static;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+  }
+
+.principal {
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    color: #f0f0f0;
+  }
+  
+.btn {
+    border: 3px solid hsl(64, 100%, 51%);
+    color: white;
+    font-weight: bold;
+    background: no-repeat 65% url(/images/btn.jpg);
+    padding: 15px;
+    width: 10%;
+    border-radius: 1em;
+  }
+  
+.text-input {
+    align-items: center;
+    text-align: center;
+    border: 3px solid #499914;
+    background-color: #F2F2F2;
+    padding: 15px; 
+    width: 20%;
+    border-radius: 1em;
+  }
+  
+.zona-ahorcado {
+    padding: 0;
+    margin: auto;
+    display: block;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+#reiniciar-juego {
+    border: 3px solid hsl(64, 100%, 51%);
+    color: white;
+    font-weight: bold;
+    background: no-repeat 65% url(/images/btn.jpg);
+    padding: 15px;
+    width: 10%;
+    border-radius: 1em;
+  }
+  
+.invisible {
+    display: none;
+  }
+
+.piso {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+a:link, a:visited, a:active, a:hover {
+    color:white;
+    text-decoration: none;
+    transition: color .5s;
+  }
+
+a:hover {
+    color: gold;
+  }
+
+.barraNav {
+  list-style: none;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+  }
