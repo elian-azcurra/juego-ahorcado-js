@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+  
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Juego del ahorcado</title>
-    <link href="/styles/style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/logo.png" type="image/png">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>¡Juego del Ahorcado!</title>
   </head>
 
 <body>
 
   <div class="container">
-    <h1 class="titulo">JUEGO DEL AHORCADO</h1>
-
     <nav class="barraNav">
       <ul>
           <li><a href="https://github.com/elian-azcurra" target="_blank">¡Mi GitHub!</a>
@@ -20,25 +20,29 @@
       </ul>
     </nav>
 
-      <div class="principal">
-        <button class="btn" id="iniciar-juego">¡INICIAR JUEGO!</button>
-        <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
-        <button class="btn" id="nueva-palabra">¡AGREGAR PALABRA!</button>
-        <button class="invisible" id="reiniciar-juego">¡REINICIAR JUEGO!</button>
-    </div>
+    <h1 class="titulo">JUEGO DEL AHORCADO</h1>
+    
+      <main>
 
-    <div>
-      <canvas class="zona-ahorcado" id="ahorcado"></canvas>
-    </div>
+        <div class="principal">
+          <button class="btn" id="iniciar-juego">¡INICIAR JUEGO!</button>
+            <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
+          <button class="btn" id="nueva-palabra">¡AGREGAR PALABRA!</button>
+          <button class="invisible" id="reiniciar-juego">¡REINICIAR JUEGO!</button>
+        </div>
 
-    <footer class="piso">
-    Hecho por: Elian Azcurra
-    </footer>
+      <div>
+        <canvas class="zona-ahorcado" id="ahorcado"></canvas>
+      </div>
+
+      <footer class="piso">
+        Hecho por: Elian Azcurra
+      </footer>
   </div>
 
 </body>
 
-<script class="div" type="text/javascript" src="/script/canvas.js"></script>
-<script type="text/javascript" src="/script/ahorcado.js"></script>
+<script src="script/canvas.js"></script>
+<script src="script/ahorcado.js"></script>
 
 </html>
